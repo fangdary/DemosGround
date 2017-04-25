@@ -1,0 +1,13 @@
+//
+//  EG_Drawview.h
+//  DemosGround
+//
+//  Created by EG on 2017/4/21.
+//  Copyright © 2017年 EGMade. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+@interface EG_Drawview : UIView
+
+@end
