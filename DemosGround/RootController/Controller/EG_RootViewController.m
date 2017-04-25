@@ -70,7 +70,8 @@
                             @"EG_BlurEffectViewController",
                             @"EG_ijkPlayerViewController",
                             @"EG_PanControlViewController",
-                            @"EG_DraggableLineViewController"
+                            @"EG_DraggableLineViewController",
+                            @"EG_SegmentFeedBack"
                             ];
     }
     return _subControllers;

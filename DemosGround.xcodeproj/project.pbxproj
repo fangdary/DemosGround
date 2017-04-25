@@ -80,6 +80,7 @@
 		C4E5ACE11E69314F00AF45AD /* EG_AnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E5ACE01E69314F00AF45AD /* EG_AnimationView.m */; };
 		C4E5ACE21E69314F00AF45AD /* EG_AnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E5ACE01E69314F00AF45AD /* EG_AnimationView.m */; };
 		C4E5ACE31E69314F00AF45AD /* EG_AnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E5ACE01E69314F00AF45AD /* EG_AnimationView.m */; };
+		C4EA48B61EAF3D3D00AF4931 /* EG_SegmentFeedBack.m in Sources */ = {isa = PBXBuildFile; fileRef = C4EA48B51EAF3D3D00AF4931 /* EG_SegmentFeedBack.m */; };
 		DC98FE0989DC85B727A995BF /* libPods-DemosGround.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 30C053B7D602B460AEA90310 /* libPods-DemosGround.a */; };
 /* End PBXBuildFile section */
 
@@ -129,10 +130,10 @@
 		C41A55A91E6E91930045451D /* EG_LocalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EG_LocalViewController.m; sourceTree = "<group>"; };
 		C41A55AA1E6E91930045451D /* EG_LocalViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EG_LocalViewController.xib; sourceTree = "<group>"; };
 		C41A55AD1E6EACA40045451D /* FlightRecrodsDatabase.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = FlightRecrodsDatabase.db; sourceTree = "<group>"; };
-		C41B26961EA83BFA0022782E /* EG_DraggableLineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EG_DraggableLineViewController.h; sourceTree = "<group>"; };
-		C41B26971EA83BFA0022782E /* EG_DraggableLineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EG_DraggableLineViewController.m; sourceTree = "<group>"; };
-		C41B26A11EA9911F0022782E /* EG_Drawview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EG_Drawview.h; sourceTree = "<group>"; };
-		C41B26A21EA9911F0022782E /* EG_Drawview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EG_Drawview.m; sourceTree = "<group>"; };
+		C41B26961EA83BFA0022782E /* EG_DraggableLineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EG_DraggableLineViewController.h; path = DemosGround/Playground/EG_DraggableLineViewController.h; sourceTree = "<group>"; };
+		C41B26971EA83BFA0022782E /* EG_DraggableLineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EG_DraggableLineViewController.m; path = DemosGround/Playground/EG_DraggableLineViewController.m; sourceTree = "<group>"; };
+		C41B26A11EA9911F0022782E /* EG_Drawview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EG_Drawview.h; path = DemosGround/Playground/EG_Drawview.h; sourceTree = "<group>"; };
+		C41B26A21EA9911F0022782E /* EG_Drawview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EG_Drawview.m; path = DemosGround/Playground/EG_Drawview.m; sourceTree = "<group>"; };
 		C41BC06A1E9780E5002DFCBD /* EG_BlurEffectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EG_BlurEffectViewController.h; sourceTree = "<group>"; };
 		C41BC06B1E9780E5002DFCBD /* EG_BlurEffectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EG_BlurEffectViewController.m; sourceTree = "<group>"; };
 		C41BC06C1E9780E5002DFCBD /* EG_BlurEffectViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EG_BlurEffectViewController.xib; sourceTree = "<group>"; };
@@ -211,6 +212,8 @@
 		C4E5ACDB1E69312700AF45AD /* LogoAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogoAnimationViewController.m; sourceTree = "<group>"; };
 		C4E5ACDF1E69314F00AF45AD /* EG_AnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EG_AnimationView.h; sourceTree = "<group>"; };
 		C4E5ACE01E69314F00AF45AD /* EG_AnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EG_AnimationView.m; sourceTree = "<group>"; };
+		C4EA48B41EAF3D3D00AF4931 /* EG_SegmentFeedBack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EG_SegmentFeedBack.h; sourceTree = "<group>"; };
+		C4EA48B51EAF3D3D00AF4931 /* EG_SegmentFeedBack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EG_SegmentFeedBack.m; sourceTree = "<group>"; };
 		D54D35425F8AB4500CA74C18 /* Pods-DemosGround.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemosGround.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DemosGround/Pods-DemosGround.debug.xcconfig"; sourceTree = "<group>"; };
 		ED2A5A47AA0CCB83A7D9ABCD /* libPods-DemosGroundTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DemosGroundTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -319,13 +322,17 @@
 			name = GradualColor;
 			sourceTree = "<group>";
 		};
-		C44315E31E79156100463D6D /* New Group */ = {
+		C44315E31E79156100463D6D /* DragLine */ = {
 			isa = PBXGroup;
 			children = (
+				C41B26961EA83BFA0022782E /* EG_DraggableLineViewController.h */,
+				C41B26971EA83BFA0022782E /* EG_DraggableLineViewController.m */,
+				C41B26A11EA9911F0022782E /* EG_Drawview.h */,
+				C41B26A21EA9911F0022782E /* EG_Drawview.m */,
 				C43968FC1E76C22900C31A03 /* EG_ArrayContainsViewController.h */,
 				C43968FD1E76C22900C31A03 /* EG_ArrayContainsViewController.m */,
 			);
-			name = "New Group";
+			name = DragLine;
 			path = ../..;
 			sourceTree = "<group>";
 		};
@@ -639,10 +646,8 @@
 		C4E5ACD61E691DBF00AF45AD /* Playground */ = {
 			isa = PBXGroup;
 			children = (
-				C41B26961EA83BFA0022782E /* EG_DraggableLineViewController.h */,
-				C41B26971EA83BFA0022782E /* EG_DraggableLineViewController.m */,
-				C41B26A11EA9911F0022782E /* EG_Drawview.h */,
-				C41B26A21EA9911F0022782E /* EG_Drawview.m */,
+				C4EA48B41EAF3D3D00AF4931 /* EG_SegmentFeedBack.h */,
+				C4EA48B51EAF3D3D00AF4931 /* EG_SegmentFeedBack.m */,
 				C417F4391EA208A000B58BD7 /* PanControl */,
 				C4A24B651E99D38100B90C9A /* ijkPlayer */,
 				C4C791461E99BD23005ACD27 /* BlurEffect */,
@@ -650,7 +655,7 @@
 				C4161F041E88F68D0042C116 /* Fold */,
 				C430D10B1E84E97400CFB644 /* FoldedTable */,
 				C44315E71E79669600463D6D /* SignInController */,
-				C44315E31E79156100463D6D /* New Group */,
+				C44315E31E79156100463D6D /* DragLine */,
 				C43968FB1E76C20D00C31A03 /* GradualColor */,
 				C4CC13551E723C3C00553DC5 /* Archive */,
 				C4BCD9311E71087D0028EE9D /* UploadBackup */,
@@ -998,6 +1003,7 @@
 				C4E5AC961E6917D500AF45AD /* main.m in Sources */,
 				C4BCD9381E7128D80028EE9D /* EG_LocalArchieveViewController.m in Sources */,
 				C4B6E2D91E6D4515007A3E77 /* EG_DispatchViewController.m in Sources */,
+				C4EA48B61EAF3D3D00AF4931 /* EG_SegmentFeedBack.m in Sources */,
 				C44315EE1E796B7800463D6D /* EG_RegisterView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
