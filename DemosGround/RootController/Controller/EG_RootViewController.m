@@ -71,7 +71,9 @@
                             @"EG_ijkPlayerViewController",
                             @"EG_PanControlViewController",
                             @"EG_DraggableLineViewController",
-                            @"EG_SegmentFeedBack"
+                            @"EG_SegmentFeedBack",
+                            @"EG_MapLongPressViewController",
+                            @"EG_ShakingViewController"
                             ];
     }
     return _subControllers;

@@ -34,7 +34,11 @@
 		C4294D641E70067B00B3F4B4 /* UIView+PDExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = C4294D621E70067B00B3F4B4 /* UIView+PDExtension.m */; };
 		C4294D651E70067B00B3F4B4 /* UIView+PDExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = C4294D621E70067B00B3F4B4 /* UIView+PDExtension.m */; };
 		C430D10E1E84E9BB00CFB644 /* EG_FoldedTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C430D10D1E84E9BB00CFB644 /* EG_FoldedTableViewController.m */; };
+		C436F0E91EB07ABA0028DA05 /* EG_MapLongPressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C436F0E81EB07ABA0028DA05 /* EG_MapLongPressViewController.m */; };
+		C436F0EC1EB07CE00028DA05 /* EG_MapView.m in Sources */ = {isa = PBXBuildFile; fileRef = C436F0EB1EB07CE00028DA05 /* EG_MapView.m */; };
+		C436F0EF1EB07ED60028DA05 /* EG_PathView.m in Sources */ = {isa = PBXBuildFile; fileRef = C436F0EE1EB07ED60028DA05 /* EG_PathView.m */; };
 		C43968FE1E76C22900C31A03 /* EG_ArrayContainsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C43968FD1E76C22900C31A03 /* EG_ArrayContainsViewController.m */; };
+		C440ED4D1EAF438B006C0053 /* PDChangeMapTypeView.m in Sources */ = {isa = PBXBuildFile; fileRef = C440ED4C1EAF438B006C0053 /* PDChangeMapTypeView.m */; };
 		C44315E11E79155400463D6D /* EG_GradualViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C44315DF1E79155400463D6D /* EG_GradualViewController.m */; };
 		C44315E61E79157400463D6D /* GDULogoView.m in Sources */ = {isa = PBXBuildFile; fileRef = C44315E51E79157400463D6D /* GDULogoView.m */; };
 		C44315EA1E7966A900463D6D /* EG_SignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C44315E91E7966A900463D6D /* EG_SignInViewController.m */; };
@@ -81,6 +85,8 @@
 		C4E5ACE21E69314F00AF45AD /* EG_AnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E5ACE01E69314F00AF45AD /* EG_AnimationView.m */; };
 		C4E5ACE31E69314F00AF45AD /* EG_AnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E5ACE01E69314F00AF45AD /* EG_AnimationView.m */; };
 		C4EA48B61EAF3D3D00AF4931 /* EG_SegmentFeedBack.m in Sources */ = {isa = PBXBuildFile; fileRef = C4EA48B51EAF3D3D00AF4931 /* EG_SegmentFeedBack.m */; };
+		C4FEBB8D1EB9A13300244591 /* EG_ShakingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4FEBB8C1EB9A13300244591 /* EG_ShakingViewController.m */; };
+		C4FEBB911EB9A2F900244591 /* EG_SoundTool.m in Sources */ = {isa = PBXBuildFile; fileRef = C4FEBB901EB9A2F900244591 /* EG_SoundTool.m */; };
 		DC98FE0989DC85B727A995BF /* libPods-DemosGround.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 30C053B7D602B460AEA90310 /* libPods-DemosGround.a */; };
 /* End PBXBuildFile section */
 
@@ -146,8 +152,16 @@
 		C4294D621E70067B00B3F4B4 /* UIView+PDExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+PDExtension.m"; sourceTree = "<group>"; };
 		C430D10C1E84E9BB00CFB644 /* EG_FoldedTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EG_FoldedTableViewController.h; sourceTree = "<group>"; };
 		C430D10D1E84E9BB00CFB644 /* EG_FoldedTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EG_FoldedTableViewController.m; sourceTree = "<group>"; };
+		C436F0E71EB07ABA0028DA05 /* EG_MapLongPressViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EG_MapLongPressViewController.h; sourceTree = "<group>"; };
+		C436F0E81EB07ABA0028DA05 /* EG_MapLongPressViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EG_MapLongPressViewController.m; sourceTree = "<group>"; };
+		C436F0EA1EB07CE00028DA05 /* EG_MapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EG_MapView.h; sourceTree = "<group>"; };
+		C436F0EB1EB07CE00028DA05 /* EG_MapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EG_MapView.m; sourceTree = "<group>"; };
+		C436F0ED1EB07ED60028DA05 /* EG_PathView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EG_PathView.h; sourceTree = "<group>"; };
+		C436F0EE1EB07ED60028DA05 /* EG_PathView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EG_PathView.m; sourceTree = "<group>"; };
 		C43968FC1E76C22900C31A03 /* EG_ArrayContainsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EG_ArrayContainsViewController.h; path = DemosGround/Playground/EG_ArrayContainsViewController.h; sourceTree = "<group>"; };
 		C43968FD1E76C22900C31A03 /* EG_ArrayContainsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EG_ArrayContainsViewController.m; path = DemosGround/Playground/EG_ArrayContainsViewController.m; sourceTree = "<group>"; };
+		C440ED4B1EAF438B006C0053 /* PDChangeMapTypeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PDChangeMapTypeView.h; path = ../RootController/Controller/PDChangeMapTypeView.h; sourceTree = "<group>"; };
+		C440ED4C1EAF438B006C0053 /* PDChangeMapTypeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PDChangeMapTypeView.m; path = ../RootController/Controller/PDChangeMapTypeView.m; sourceTree = "<group>"; };
 		C44315DE1E79155400463D6D /* EG_GradualViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EG_GradualViewController.h; sourceTree = "<group>"; };
 		C44315DF1E79155400463D6D /* EG_GradualViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EG_GradualViewController.m; sourceTree = "<group>"; };
 		C44315E41E79157400463D6D /* GDULogoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDULogoView.h; sourceTree = "<group>"; };
@@ -214,6 +228,10 @@
 		C4E5ACE01E69314F00AF45AD /* EG_AnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EG_AnimationView.m; sourceTree = "<group>"; };
 		C4EA48B41EAF3D3D00AF4931 /* EG_SegmentFeedBack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EG_SegmentFeedBack.h; sourceTree = "<group>"; };
 		C4EA48B51EAF3D3D00AF4931 /* EG_SegmentFeedBack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EG_SegmentFeedBack.m; sourceTree = "<group>"; };
+		C4FEBB8B1EB9A13300244591 /* EG_ShakingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EG_ShakingViewController.h; sourceTree = "<group>"; };
+		C4FEBB8C1EB9A13300244591 /* EG_ShakingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EG_ShakingViewController.m; sourceTree = "<group>"; };
+		C4FEBB8F1EB9A2F900244591 /* EG_SoundTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EG_SoundTool.h; path = ../../EG_SoundTool.h; sourceTree = "<group>"; };
+		C4FEBB901EB9A2F900244591 /* EG_SoundTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EG_SoundTool.m; path = ../../EG_SoundTool.m; sourceTree = "<group>"; };
 		D54D35425F8AB4500CA74C18 /* Pods-DemosGround.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemosGround.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DemosGround/Pods-DemosGround.debug.xcconfig"; sourceTree = "<group>"; };
 		ED2A5A47AA0CCB83A7D9ABCD /* libPods-DemosGroundTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DemosGroundTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -311,6 +329,17 @@
 				C430D10D1E84E9BB00CFB644 /* EG_FoldedTableViewController.m */,
 			);
 			name = FoldedTable;
+			sourceTree = "<group>";
+		};
+		C436F0E61EB07A8A0028DA05 /* type */ = {
+			isa = PBXGroup;
+			children = (
+				C440ED4B1EAF438B006C0053 /* PDChangeMapTypeView.h */,
+				C440ED4C1EAF438B006C0053 /* PDChangeMapTypeView.m */,
+				C4EA48B41EAF3D3D00AF4931 /* EG_SegmentFeedBack.h */,
+				C4EA48B51EAF3D3D00AF4931 /* EG_SegmentFeedBack.m */,
+			);
+			name = type;
 			sourceTree = "<group>";
 		};
 		C43968FB1E76C20D00C31A03 /* GradualColor */ = {
@@ -646,8 +675,8 @@
 		C4E5ACD61E691DBF00AF45AD /* Playground */ = {
 			isa = PBXGroup;
 			children = (
-				C4EA48B41EAF3D3D00AF4931 /* EG_SegmentFeedBack.h */,
-				C4EA48B51EAF3D3D00AF4931 /* EG_SegmentFeedBack.m */,
+				C4FEBB8E1EB9A24300244591 /* PressAndStroke */,
+				C436F0E61EB07A8A0028DA05 /* type */,
 				C417F4391EA208A000B58BD7 /* PanControl */,
 				C4A24B651E99D38100B90C9A /* ijkPlayer */,
 				C4C791461E99BD23005ACD27 /* BlurEffect */,
@@ -668,8 +697,25 @@
 				C4B6E2D01E6D448E007A3E77 /* AnimationFreshButton */,
 				C4B6E2CF1E6D4486007A3E77 /* Logo */,
 				C44315EB1E79689800463D6D /* GradualView */,
+				C4FEBB8B1EB9A13300244591 /* EG_ShakingViewController.h */,
+				C4FEBB8C1EB9A13300244591 /* EG_ShakingViewController.m */,
+				C4FEBB8F1EB9A2F900244591 /* EG_SoundTool.h */,
+				C4FEBB901EB9A2F900244591 /* EG_SoundTool.m */,
 			);
 			path = Playground;
+			sourceTree = "<group>";
+		};
+		C4FEBB8E1EB9A24300244591 /* PressAndStroke */ = {
+			isa = PBXGroup;
+			children = (
+				C436F0E71EB07ABA0028DA05 /* EG_MapLongPressViewController.h */,
+				C436F0E81EB07ABA0028DA05 /* EG_MapLongPressViewController.m */,
+				C436F0EA1EB07CE00028DA05 /* EG_MapView.h */,
+				C436F0EB1EB07CE00028DA05 /* EG_MapView.m */,
+				C436F0ED1EB07ED60028DA05 /* EG_PathView.h */,
+				C436F0EE1EB07ED60028DA05 /* EG_PathView.m */,
+			);
+			name = PressAndStroke;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -964,6 +1010,7 @@
 				C49C85AB1E6D811C00F1F0F8 /* EG_EnumViewController.m in Sources */,
 				C4E5ACE11E69314F00AF45AD /* EG_AnimationView.m in Sources */,
 				C417F4381EA2089A00B58BD7 /* EG_PanControlViewController.m in Sources */,
+				C440ED4D1EAF438B006C0053 /* PDChangeMapTypeView.m in Sources */,
 				C4737DCC1E6D7D50001EC576 /* EG_ShakeViewController.m in Sources */,
 				C4E5ACDC1E69312700AF45AD /* LogoAnimationViewController.m in Sources */,
 				C44315F41E796B9900463D6D /* EG_ForgetPasswordView.m in Sources */,
@@ -983,11 +1030,14 @@
 				C44315F71E796C2700463D6D /* GDUAnimateInputView.m in Sources */,
 				C4161F071E88F6AC0042C116 /* EG_DownloadTableViewController.m in Sources */,
 				C41B26981EA83BFA0022782E /* EG_DraggableLineViewController.m in Sources */,
+				C436F0EC1EB07CE00028DA05 /* EG_MapView.m in Sources */,
 				C43968FE1E76C22900C31A03 /* EG_ArrayContainsViewController.m in Sources */,
 				C4737CAC1E84FCBC00453165 /* EG_FoldCollectionViewController.m in Sources */,
 				C4BCD9341E7108920028EE9D /* EG_UploadBackupViewController.m in Sources */,
+				C436F0EF1EB07ED60028DA05 /* EG_PathView.m in Sources */,
 				C417F43E1EA208B400B58BD7 /* PDPanControlButton.m in Sources */,
 				C417F43F1EA208B400B58BD7 /* PDSmartModePanControlView.m in Sources */,
+				C4FEBB8D1EB9A13300244591 /* EG_ShakingViewController.m in Sources */,
 				C41A559E1E6E5F640045451D /* EG_BaseViewController.m in Sources */,
 				C4C4C47B1E8B64D800FE0CE3 /* EG_LoadingPieView.m in Sources */,
 				C41A55AB1E6E91930045451D /* EG_LocalViewController.m in Sources */,
@@ -999,8 +1049,10 @@
 				C4A24B641E99D37A00B90C9A /* EG_ijkPlayerViewController.m in Sources */,
 				C44315E11E79155400463D6D /* EG_GradualViewController.m in Sources */,
 				C4294D5E1E70062500B3F4B4 /* UIColor+PDExtension.m in Sources */,
+				C436F0E91EB07ABA0028DA05 /* EG_MapLongPressViewController.m in Sources */,
 				C4737CB01E8506B200453165 /* EG_CollectionHeaderView.m in Sources */,
 				C4E5AC961E6917D500AF45AD /* main.m in Sources */,
+				C4FEBB911EB9A2F900244591 /* EG_SoundTool.m in Sources */,
 				C4BCD9381E7128D80028EE9D /* EG_LocalArchieveViewController.m in Sources */,
 				C4B6E2D91E6D4515007A3E77 /* EG_DispatchViewController.m in Sources */,
 				C4EA48B61EAF3D3D00AF4931 /* EG_SegmentFeedBack.m in Sources */,
@@ -1165,10 +1217,11 @@
 				DEVELOPMENT_TEAM = 8PLB35PLP3;
 				GCC_PREFIX_HEADER = DemosGround/Tools/Header/PrefixHeader.pch;
 				INFOPLIST_FILE = DemosGround/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.evilGoose.DemosGround;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -1180,10 +1233,11 @@
 				DEVELOPMENT_TEAM = 8PLB35PLP3;
 				GCC_PREFIX_HEADER = DemosGround/Tools/Header/PrefixHeader.pch;
 				INFOPLIST_FILE = DemosGround/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.evilGoose.DemosGround;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};

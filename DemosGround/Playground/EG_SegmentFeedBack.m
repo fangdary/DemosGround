@@ -8,6 +8,8 @@
 
 #import "EG_SegmentFeedBack.h"
 
+#import "PDChangeMapTypeView.h"
+
 #define UIColorFromRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
 
 @implementation EG_SegmentFeedBack
@@ -16,7 +18,10 @@
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor lightGrayColor];
     
-    [self.view addSubview:[[PDLMapTrackAccessoryView alloc] initWithFrame:CGRectMake(100, 100, 200, 60)]];
+}
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    [self.view addSubview:[[PDChangeMapTypeView alloc]initWithFrame:CGRectMake(100, 100, 210, 80)]];
 }
 
 @end
