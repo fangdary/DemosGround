@@ -18,11 +18,23 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    UIButton *shake = [UIButton buttonWithType:UIButtonTypeCustom];
+    [shake setTitle:@"shake" forState:UIControlStateNormal];
+    [shake addTarget:self action:@selector(shake) forControlEvents:UIControlEventTouchUpInside];
+    shake.center = self.view.center;
+    shake.bounds = CGRectMake(0, 0, 100, 50);
+    shake.backgroundColor = [UIColor redColor];
+    [self.view addSubview:shake];
 }
 
-- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
-    EG_SoundTool *playSound =[[EG_SoundTool alloc]initForPlayingVibrate];
-    [playSound play];
+- (void)shake {
+    AudioServicesPlaySystemSound(kSystemSoundID_Vibrate);
 }
+
+//- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+//    EG_SoundTool *playSound =[[EG_SoundTool alloc]initForPlayingVibrate];
+//    [playSound play];
+//}
 
 @end

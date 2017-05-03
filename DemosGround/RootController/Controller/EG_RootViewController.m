@@ -50,7 +50,9 @@
 
 - (NSArray *)subControllers {
     if (!_subControllers) {
-        _subControllers = @[@"LogoAnimationViewController",
+        _subControllers = @[
+                            @"EG_ShakingViewController",
+                            @"LogoAnimationViewController",
                             @"EG_DispatchViewController",
                             @"EG_ShakeViewController",
                             @"EG_DBViewController",
@@ -73,7 +75,6 @@
                             @"EG_DraggableLineViewController",
                             @"EG_SegmentFeedBack",
                             @"EG_MapLongPressViewController",
-                            @"EG_ShakingViewController"
                             ];
     }
     return _subControllers;

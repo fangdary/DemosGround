@@ -17,7 +17,6 @@
     self = [super init];
     if (self) {
         soundID = kSystemSoundID_Vibrate;
-        
     }
     return self;
 }
