@@ -8,7 +8,7 @@
 
 #import "EG_ShakingViewController.h"
 #import "EG_SoundTool.h"
-
+#import "EG_TypeView.h"
 @interface EG_ShakingViewController ()
 
 @end
@@ -30,6 +30,13 @@
 
 - (void)shake {
     AudioServicesPlaySystemSound(kSystemSoundID_Vibrate);
+}
+
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    EG_TypeView *typeView = [[EG_TypeView alloc]initWithFrame:CGRectMake(100, 100, 200, 60)];
+    typeView.backgroundColor = [UIColor greenColor];
+    [self.view addSubview:typeView];
 }
 
 //- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {

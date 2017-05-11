@@ -51,6 +51,7 @@
 - (NSArray *)subControllers {
     if (!_subControllers) {
         _subControllers = @[
+                            @"EG_TypeViewController",
                             @"EG_ShakingViewController",
                             @"LogoAnimationViewController",
                             @"EG_DispatchViewController",
