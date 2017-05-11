@@ -6,6 +6,17 @@ target 'DemosGround' do
   # use_frameworks!
 
   # Pods for DemosGround
+  pod 'FMDB', '~> 2.6.2'
+  pod 'Realm', '~> 2.1.1'
+  
+  pod 'AFNetworking', '~> 3.1.0'
+  
+  pod 'pop', '~> 1.0.9'
+  pod 'Masonry', '~> 1.0.2'
+  pod 'MJRefresh', '~> 3.1.12'
+  pod 'MBProgressHUD', '~> 1.0.0'
+  
+  pod 'YYKit', '~> 1.0.9'
 
   target 'DemosGroundTests' do
     inherit! :search_paths
@@ -16,21 +27,5 @@ target 'DemosGround' do
     inherit! :search_paths
     # Pods for testing
   end
-	pod 'FMDB', '~> 2.6.2'
-    pod 'Realm', '~> 2.1.1'
-
-	pod 'AFNetworking', '~> 3.1.0'
-	
-    pod 'pop', '~> 1.0.9'
-	pod 'Masonry', '~> 1.0.2'
-	pod 'MJRefresh', '~> 3.1.12'
-	pod 'MBProgressHUD', '~> 1.0.0'
-
-	pod 'YYKit', '~> 1.0.9'
-
-	#pod 'AMap2D', '~> 2.1.3'
-	#pod 'shareSDK', '~> 0.0.2'
-	#
-
-
+	  
 end

@@ -9,45 +9,13 @@
 #import "EG_RootViewController.h"
 
 @interface EG_RootViewController ()
-
 /*subcontrollers*/
 @property (copy, nonatomic)NSArray *subControllers;
-
 @end
 
 @implementation EG_RootViewController
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    // Do any additional setup after loading the view.
-    self.view.backgroundColor = [UIColor lightGrayColor];
-}
-
-#pragma mark - delegate
-
-- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    [self.navigationController pushViewController:
-                                [NSClassFromString(self.subControllers[indexPath.row]) new]
-                                         animated:YES];
-}
-
-#pragma mark - datasource
-
-- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return self.subControllers.count;
-}
-
-
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"subviewControllersCellID"];
-    if (!cell) {
-        cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"subviewControllersCellID"];
-    }
-    cell.textLabel.text = self.subControllers[indexPath.row];
-    return cell;
-}
-
-
+    //所有子控制器
 - (NSArray *)subControllers {
     if (!_subControllers) {
         _subControllers = @[
@@ -80,5 +48,37 @@
     }
     return _subControllers;
 }
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    // Do any additional setup after loading the view.
+    self.view.backgroundColor = [UIColor lightGrayColor];
+}
+
+#pragma mark - delegate
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    [self.navigationController pushViewController:
+                                [NSClassFromString(self.subControllers[indexPath.row]) new]
+                                         animated:YES];
+}
+
+#pragma mark - datasource
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    return self.subControllers.count;
+}
+
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"subviewControllersCellID"];
+    if (!cell) {
+        cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"subviewControllersCellID"];
+    }
+    cell.textLabel.text = self.subControllers[indexPath.row];
+    return cell;
+}
+
+
 
 @end
