@@ -19,6 +19,12 @@
 - (NSArray *)subControllers {
     if (!_subControllers) {
         _subControllers = @[
+                            @"EG_RACViewController",
+                            @"EG_LLDBViewController",
+                            @"EG_DeleteComplexAItemViewController",
+                            @"EG_TraceController",
+                            @"EG_CurrentViewController",
+                            @"EG_RealmController",
                             @"EG_TypeViewController",
                             @"EG_ShakingViewController",
                             @"LogoAnimationViewController",

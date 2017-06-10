@@ -25,6 +25,9 @@
 		C41BC06D1E9780E5002DFCBD /* EG_BlurEffectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C41BC06B1E9780E5002DFCBD /* EG_BlurEffectViewController.m */; };
 		C41BC06E1E9780E5002DFCBD /* EG_BlurEffectViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C41BC06C1E9780E5002DFCBD /* EG_BlurEffectViewController.xib */; };
 		C41BC0701E978124002DFCBD /* backImage.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C41BC06F1E978124002DFCBD /* backImage.jpeg */; };
+		C41F76811EC6E3A2007BF462 /* EG_CurrentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C41F76801EC6E3A2007BF462 /* EG_CurrentViewController.m */; };
+		C41F76841EC6E3B8007BF462 /* EG_PresentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C41F76831EC6E3B8007BF462 /* EG_PresentViewController.m */; };
+		C41F76871EC6E428007BF462 /* EG_AnimationPresentTool.m in Sources */ = {isa = PBXBuildFile; fileRef = C41F76861EC6E428007BF462 /* EG_AnimationPresentTool.m */; };
 		C42565781E8CA42200FDFFE2 /* JNPieLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = C42565771E8CA42200FDFFE2 /* JNPieLoader.m */; };
 		C4294D5E1E70062500B3F4B4 /* UIColor+PDExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = C4294D5D1E70062500B3F4B4 /* UIColor+PDExtension.m */; };
 		C4294D5F1E70062500B3F4B4 /* UIColor+PDExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = C4294D5D1E70062500B3F4B4 /* UIColor+PDExtension.m */; };
@@ -32,6 +35,9 @@
 		C4294D631E70067B00B3F4B4 /* UIView+PDExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = C4294D621E70067B00B3F4B4 /* UIView+PDExtension.m */; };
 		C4294D641E70067B00B3F4B4 /* UIView+PDExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = C4294D621E70067B00B3F4B4 /* UIView+PDExtension.m */; };
 		C4294D651E70067B00B3F4B4 /* UIView+PDExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = C4294D621E70067B00B3F4B4 /* UIView+PDExtension.m */; };
+		C42B32211ECBEC2D00F84219 /* RecordModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C42B32201ECBEC2D00F84219 /* RecordModel.m */; };
+		C42B32241ECBEC4000F84219 /* EG_TraceController.m in Sources */ = {isa = PBXBuildFile; fileRef = C42B32231ECBEC4000F84219 /* EG_TraceController.m */; };
+		C42B32271ECBF50F00F84219 /* RecordHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C42B32261ECBF50F00F84219 /* RecordHelper.m */; };
 		C430D10E1E84E9BB00CFB644 /* EG_FoldedTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C430D10D1E84E9BB00CFB644 /* EG_FoldedTableViewController.m */; };
 		C436F0E91EB07ABA0028DA05 /* EG_MapLongPressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C436F0E81EB07ABA0028DA05 /* EG_MapLongPressViewController.m */; };
 		C436F0EC1EB07CE00028DA05 /* EG_MapView.m in Sources */ = {isa = PBXBuildFile; fileRef = C436F0EB1EB07CE00028DA05 /* EG_MapView.m */; };
@@ -40,6 +46,7 @@
 		C437B5DF1EC14F25005BF22E /* EG_TypeView.m in Sources */ = {isa = PBXBuildFile; fileRef = C437B5DE1EC14F25005BF22E /* EG_TypeView.m */; };
 		C43968FE1E76C22900C31A03 /* EG_ArrayContainsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C43968FD1E76C22900C31A03 /* EG_ArrayContainsViewController.m */; };
 		C440ED4D1EAF438B006C0053 /* PDChangeMapTypeView.m in Sources */ = {isa = PBXBuildFile; fileRef = C440ED4C1EAF438B006C0053 /* PDChangeMapTypeView.m */; };
+		C440F8281EE8132100937C21 /* EG_LLDBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C440F8271EE8132100937C21 /* EG_LLDBViewController.m */; };
 		C44315E11E79155400463D6D /* EG_GradualViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C44315DF1E79155400463D6D /* EG_GradualViewController.m */; };
 		C44315E61E79157400463D6D /* GDULogoView.m in Sources */ = {isa = PBXBuildFile; fileRef = C44315E51E79157400463D6D /* GDULogoView.m */; };
 		C44315EA1E7966A900463D6D /* EG_SignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C44315E91E7966A900463D6D /* EG_SignInViewController.m */; };
@@ -47,9 +54,11 @@
 		C44315F11E796B8200463D6D /* EG_SignInVIew.m in Sources */ = {isa = PBXBuildFile; fileRef = C44315F01E796B8200463D6D /* EG_SignInVIew.m */; };
 		C44315F41E796B9900463D6D /* EG_ForgetPasswordView.m in Sources */ = {isa = PBXBuildFile; fileRef = C44315F31E796B9900463D6D /* EG_ForgetPasswordView.m */; };
 		C44315F71E796C2700463D6D /* GDUAnimateInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = C44315F61E796C2700463D6D /* GDUAnimateInputView.m */; };
+		C45197CB1EE97563006E4087 /* EG_RACViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C45197C91EE97563006E4087 /* EG_RACViewController.m */; };
 		C45DB7031EC407340091CCB5 /* EG_TypeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C45DB7021EC407340091CCB5 /* EG_TypeViewController.m */; };
 		C45DB7091EC408A00091CCB5 /* EG_RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C45DB7051EC408A00091CCB5 /* EG_RootViewController.m */; };
 		C45DB70A1EC408A00091CCB5 /* EG_BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C45DB7071EC408A00091CCB5 /* EG_BaseViewController.m */; };
+		C468BD691ED31587001253CC /* EG_DeleteComplexAItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C468BD681ED31587001253CC /* EG_DeleteComplexAItemViewController.m */; };
 		C4737CAC1E84FCBC00453165 /* EG_FoldCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4737CAB1E84FCBC00453165 /* EG_FoldCollectionViewController.m */; };
 		C4737CB01E8506B200453165 /* EG_CollectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = C4737CAE1E8506B200453165 /* EG_CollectionHeaderView.m */; };
 		C4737CB11E8506B200453165 /* EG_CollectionHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4737CAF1E8506B200453165 /* EG_CollectionHeaderView.xib */; };
@@ -86,6 +95,69 @@
 		C4E5ACE21E69314F00AF45AD /* EG_AnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E5ACE01E69314F00AF45AD /* EG_AnimationView.m */; };
 		C4E5ACE31E69314F00AF45AD /* EG_AnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E5ACE01E69314F00AF45AD /* EG_AnimationView.m */; };
 		C4EA48B61EAF3D3D00AF4931 /* EG_SegmentFeedBack.m in Sources */ = {isa = PBXBuildFile; fileRef = C4EA48B51EAF3D3D00AF4931 /* EG_SegmentFeedBack.m */; };
+		C4F1D18B1EC541E1000873D6 /* EG_RealmController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F1D1891EC541E1000873D6 /* EG_RealmController.m */; };
+		C4F1D18C1EC541E1000873D6 /* EG_RealmController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F1D1891EC541E1000873D6 /* EG_RealmController.m */; };
+		C4F1D18D1EC541E1000873D6 /* EG_RealmController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F1D1891EC541E1000873D6 /* EG_RealmController.m */; };
+		C4F1D18E1EC541E1000873D6 /* EG_RealmController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4F1D18A1EC541E1000873D6 /* EG_RealmController.xib */; };
+		C4F1D18F1EC541E1000873D6 /* EG_RealmController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4F1D18A1EC541E1000873D6 /* EG_RealmController.xib */; };
+		C4F1D1901EC541E1000873D6 /* EG_RealmController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4F1D18A1EC541E1000873D6 /* EG_RealmController.xib */; };
+		C4F1D1931EC54AF8000873D6 /* EG_FlightRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F1D1921EC54AF8000873D6 /* EG_FlightRecord.m */; };
+		C4F1D1941EC54AF8000873D6 /* EG_FlightRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F1D1921EC54AF8000873D6 /* EG_FlightRecord.m */; };
+		C4F1D1951EC54AF8000873D6 /* EG_FlightRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F1D1921EC54AF8000873D6 /* EG_FlightRecord.m */; };
+		C4F1D19C1EC55BF0000873D6 /* BasicModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F1D1971EC55BF0000873D6 /* BasicModel.m */; };
+		C4F1D19D1EC55BF0000873D6 /* BasicModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F1D1971EC55BF0000873D6 /* BasicModel.m */; };
+		C4F1D19E1EC55BF0000873D6 /* BasicModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F1D1971EC55BF0000873D6 /* BasicModel.m */; };
+		C4F1D19F1EC55BF0000873D6 /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F1D1991EC55BF0000873D6 /* Model.m */; };
+		C4F1D1A01EC55BF0000873D6 /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F1D1991EC55BF0000873D6 /* Model.m */; };
+		C4F1D1A11EC55BF0000873D6 /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F1D1991EC55BF0000873D6 /* Model.m */; };
+		C4F1D1A21EC55BF0000873D6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F1D19B1EC55BF0000873D6 /* ViewController.m */; };
+		C4F1D1A31EC55BF0000873D6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F1D19B1EC55BF0000873D6 /* ViewController.m */; };
+		C4F1D1A41EC55BF0000873D6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F1D19B1EC55BF0000873D6 /* ViewController.m */; };
+		C4F1D1C71EC55C35000873D6 /* NSData+XMRealmStore.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F1D1A81EC55C35000873D6 /* NSData+XMRealmStore.m */; };
+		C4F1D1C81EC55C35000873D6 /* NSData+XMRealmStore.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F1D1A81EC55C35000873D6 /* NSData+XMRealmStore.m */; };
+		C4F1D1C91EC55C35000873D6 /* NSData+XMRealmStore.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F1D1A81EC55C35000873D6 /* NSData+XMRealmStore.m */; };
+		C4F1D1CA1EC55C35000873D6 /* NSDate+XMRealmStore.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F1D1AA1EC55C35000873D6 /* NSDate+XMRealmStore.m */; };
+		C4F1D1CB1EC55C35000873D6 /* NSDate+XMRealmStore.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F1D1AA1EC55C35000873D6 /* NSDate+XMRealmStore.m */; };
+		C4F1D1CC1EC55C35000873D6 /* NSDate+XMRealmStore.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F1D1AA1EC55C35000873D6 /* NSDate+XMRealmStore.m */; };
+		C4F1D1CD1EC55C35000873D6 /* NSDictionary+XMRealmSotre.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F1D1AC1EC55C35000873D6 /* NSDictionary+XMRealmSotre.m */; };
+		C4F1D1CE1EC55C35000873D6 /* NSDictionary+XMRealmSotre.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F1D1AC1EC55C35000873D6 /* NSDictionary+XMRealmSotre.m */; };
+		C4F1D1CF1EC55C35000873D6 /* NSDictionary+XMRealmSotre.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F1D1AC1EC55C35000873D6 /* NSDictionary+XMRealmSotre.m */; };
+		C4F1D1D01EC55C35000873D6 /* NSString+XMRealmStore.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F1D1AE1EC55C35000873D6 /* NSString+XMRealmStore.m */; };
+		C4F1D1D11EC55C35000873D6 /* NSString+XMRealmStore.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F1D1AE1EC55C35000873D6 /* NSString+XMRealmStore.m */; };
+		C4F1D1D21EC55C35000873D6 /* NSString+XMRealmStore.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F1D1AE1EC55C35000873D6 /* NSString+XMRealmStore.m */; };
+		C4F1D1D31EC55C35000873D6 /* RLMArray+XMRealmStore.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F1D1B01EC55C35000873D6 /* RLMArray+XMRealmStore.m */; };
+		C4F1D1D41EC55C35000873D6 /* RLMArray+XMRealmStore.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F1D1B01EC55C35000873D6 /* RLMArray+XMRealmStore.m */; };
+		C4F1D1D51EC55C35000873D6 /* RLMArray+XMRealmStore.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F1D1B01EC55C35000873D6 /* RLMArray+XMRealmStore.m */; };
+		C4F1D1D61EC55C35000873D6 /* RLMResults+XMRealmSotre.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F1D1B21EC55C35000873D6 /* RLMResults+XMRealmSotre.m */; };
+		C4F1D1D71EC55C35000873D6 /* RLMResults+XMRealmSotre.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F1D1B21EC55C35000873D6 /* RLMResults+XMRealmSotre.m */; };
+		C4F1D1D81EC55C35000873D6 /* RLMResults+XMRealmSotre.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F1D1B21EC55C35000873D6 /* RLMResults+XMRealmSotre.m */; };
+		C4F1D1D91EC55C35000873D6 /* MCJSONDateTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F1D1B51EC55C35000873D6 /* MCJSONDateTransformer.m */; };
+		C4F1D1DA1EC55C35000873D6 /* MCJSONDateTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F1D1B51EC55C35000873D6 /* MCJSONDateTransformer.m */; };
+		C4F1D1DB1EC55C35000873D6 /* MCJSONDateTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F1D1B51EC55C35000873D6 /* MCJSONDateTransformer.m */; };
+		C4F1D1DC1EC55C35000873D6 /* MCJSONNonNullStringTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F1D1B71EC55C35000873D6 /* MCJSONNonNullStringTransformer.m */; };
+		C4F1D1DD1EC55C35000873D6 /* MCJSONNonNullStringTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F1D1B71EC55C35000873D6 /* MCJSONNonNullStringTransformer.m */; };
+		C4F1D1DE1EC55C35000873D6 /* MCJSONNonNullStringTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F1D1B71EC55C35000873D6 /* MCJSONNonNullStringTransformer.m */; };
+		C4F1D1DF1EC55C35000873D6 /* MCJSONPrimaryKeyTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F1D1B91EC55C35000873D6 /* MCJSONPrimaryKeyTransformer.m */; };
+		C4F1D1E01EC55C35000873D6 /* MCJSONPrimaryKeyTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F1D1B91EC55C35000873D6 /* MCJSONPrimaryKeyTransformer.m */; };
+		C4F1D1E11EC55C35000873D6 /* MCJSONPrimaryKeyTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F1D1B91EC55C35000873D6 /* MCJSONPrimaryKeyTransformer.m */; };
+		C4F1D1E21EC55C35000873D6 /* MCJSONValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F1D1BB1EC55C35000873D6 /* MCJSONValueTransformer.m */; };
+		C4F1D1E31EC55C35000873D6 /* MCJSONValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F1D1BB1EC55C35000873D6 /* MCJSONValueTransformer.m */; };
+		C4F1D1E41EC55C35000873D6 /* MCJSONValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F1D1BB1EC55C35000873D6 /* MCJSONValueTransformer.m */; };
+		C4F1D1E51EC55C35000873D6 /* RLMObject+Copying.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F1D1BD1EC55C35000873D6 /* RLMObject+Copying.m */; };
+		C4F1D1E61EC55C35000873D6 /* RLMObject+Copying.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F1D1BD1EC55C35000873D6 /* RLMObject+Copying.m */; };
+		C4F1D1E71EC55C35000873D6 /* RLMObject+Copying.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F1D1BD1EC55C35000873D6 /* RLMObject+Copying.m */; };
+		C4F1D1E81EC55C35000873D6 /* RLMObject+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F1D1BF1EC55C35000873D6 /* RLMObject+JSON.m */; };
+		C4F1D1E91EC55C35000873D6 /* RLMObject+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F1D1BF1EC55C35000873D6 /* RLMObject+JSON.m */; };
+		C4F1D1EA1EC55C35000873D6 /* RLMObject+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F1D1BF1EC55C35000873D6 /* RLMObject+JSON.m */; };
+		C4F1D1EB1EC55C35000873D6 /* XMRealmOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F1D1C21EC55C35000873D6 /* XMRealmOperation.m */; };
+		C4F1D1EC1EC55C35000873D6 /* XMRealmOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F1D1C21EC55C35000873D6 /* XMRealmOperation.m */; };
+		C4F1D1ED1EC55C35000873D6 /* XMRealmOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F1D1C21EC55C35000873D6 /* XMRealmOperation.m */; };
+		C4F1D1EE1EC55C35000873D6 /* XMRealmStoreManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F1D1C41EC55C35000873D6 /* XMRealmStoreManager.m */; };
+		C4F1D1EF1EC55C35000873D6 /* XMRealmStoreManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F1D1C41EC55C35000873D6 /* XMRealmStoreManager.m */; };
+		C4F1D1F01EC55C35000873D6 /* XMRealmStoreManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F1D1C41EC55C35000873D6 /* XMRealmStoreManager.m */; };
+		C4F1D1F11EC55C35000873D6 /* XMRealmWriteTransaction.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F1D1C61EC55C35000873D6 /* XMRealmWriteTransaction.m */; };
+		C4F1D1F21EC55C35000873D6 /* XMRealmWriteTransaction.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F1D1C61EC55C35000873D6 /* XMRealmWriteTransaction.m */; };
+		C4F1D1F31EC55C35000873D6 /* XMRealmWriteTransaction.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F1D1C61EC55C35000873D6 /* XMRealmWriteTransaction.m */; };
 		C4FEBB8D1EB9A13300244591 /* EG_ShakingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4FEBB8C1EB9A13300244591 /* EG_ShakingViewController.m */; };
 		DC98FE0989DC85B727A995BF /* libPods-DemosGround.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 30C053B7D602B460AEA90310 /* libPods-DemosGround.a */; };
 /* End PBXBuildFile section */
@@ -142,12 +214,24 @@
 		C41BC06B1E9780E5002DFCBD /* EG_BlurEffectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EG_BlurEffectViewController.m; sourceTree = "<group>"; };
 		C41BC06C1E9780E5002DFCBD /* EG_BlurEffectViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EG_BlurEffectViewController.xib; sourceTree = "<group>"; };
 		C41BC06F1E978124002DFCBD /* backImage.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = backImage.jpeg; sourceTree = "<group>"; };
+		C41F767F1EC6E3A2007BF462 /* EG_CurrentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EG_CurrentViewController.h; sourceTree = "<group>"; };
+		C41F76801EC6E3A2007BF462 /* EG_CurrentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EG_CurrentViewController.m; sourceTree = "<group>"; };
+		C41F76821EC6E3B8007BF462 /* EG_PresentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EG_PresentViewController.h; sourceTree = "<group>"; };
+		C41F76831EC6E3B8007BF462 /* EG_PresentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EG_PresentViewController.m; sourceTree = "<group>"; };
+		C41F76851EC6E428007BF462 /* EG_AnimationPresentTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EG_AnimationPresentTool.h; sourceTree = "<group>"; };
+		C41F76861EC6E428007BF462 /* EG_AnimationPresentTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EG_AnimationPresentTool.m; sourceTree = "<group>"; };
 		C42565761E8CA42200FDFFE2 /* JNPieLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JNPieLoader.h; sourceTree = "<group>"; };
 		C42565771E8CA42200FDFFE2 /* JNPieLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JNPieLoader.m; sourceTree = "<group>"; };
 		C4294D5C1E70062500B3F4B4 /* UIColor+PDExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+PDExtension.h"; sourceTree = "<group>"; };
 		C4294D5D1E70062500B3F4B4 /* UIColor+PDExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+PDExtension.m"; sourceTree = "<group>"; };
 		C4294D611E70067B00B3F4B4 /* UIView+PDExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+PDExtension.h"; sourceTree = "<group>"; };
 		C4294D621E70067B00B3F4B4 /* UIView+PDExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+PDExtension.m"; sourceTree = "<group>"; };
+		C42B321F1ECBEC2D00F84219 /* RecordModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordModel.h; sourceTree = "<group>"; };
+		C42B32201ECBEC2D00F84219 /* RecordModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordModel.m; sourceTree = "<group>"; };
+		C42B32221ECBEC4000F84219 /* EG_TraceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EG_TraceController.h; sourceTree = "<group>"; };
+		C42B32231ECBEC4000F84219 /* EG_TraceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EG_TraceController.m; sourceTree = "<group>"; };
+		C42B32251ECBF50F00F84219 /* RecordHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordHelper.h; sourceTree = "<group>"; };
+		C42B32261ECBF50F00F84219 /* RecordHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordHelper.m; sourceTree = "<group>"; };
 		C430D10C1E84E9BB00CFB644 /* EG_FoldedTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EG_FoldedTableViewController.h; sourceTree = "<group>"; };
 		C430D10D1E84E9BB00CFB644 /* EG_FoldedTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EG_FoldedTableViewController.m; sourceTree = "<group>"; };
 		C436F0E71EB07ABA0028DA05 /* EG_MapLongPressViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EG_MapLongPressViewController.h; sourceTree = "<group>"; };
@@ -164,6 +248,8 @@
 		C43968FD1E76C22900C31A03 /* EG_ArrayContainsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EG_ArrayContainsViewController.m; path = DemosGround/Playground/EG_ArrayContainsViewController.m; sourceTree = "<group>"; };
 		C440ED4B1EAF438B006C0053 /* PDChangeMapTypeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PDChangeMapTypeView.h; path = ../RootController/Controller/PDChangeMapTypeView.h; sourceTree = "<group>"; };
 		C440ED4C1EAF438B006C0053 /* PDChangeMapTypeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PDChangeMapTypeView.m; path = ../RootController/Controller/PDChangeMapTypeView.m; sourceTree = "<group>"; };
+		C440F8261EE8132100937C21 /* EG_LLDBViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EG_LLDBViewController.h; sourceTree = "<group>"; };
+		C440F8271EE8132100937C21 /* EG_LLDBViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EG_LLDBViewController.m; sourceTree = "<group>"; };
 		C44315DE1E79155400463D6D /* EG_GradualViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EG_GradualViewController.h; sourceTree = "<group>"; };
 		C44315DF1E79155400463D6D /* EG_GradualViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EG_GradualViewController.m; sourceTree = "<group>"; };
 		C44315E41E79157400463D6D /* GDULogoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDULogoView.h; sourceTree = "<group>"; };
@@ -178,12 +264,16 @@
 		C44315F31E796B9900463D6D /* EG_ForgetPasswordView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EG_ForgetPasswordView.m; sourceTree = "<group>"; };
 		C44315F51E796C2700463D6D /* GDUAnimateInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDUAnimateInputView.h; sourceTree = "<group>"; };
 		C44315F61E796C2700463D6D /* GDUAnimateInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDUAnimateInputView.m; sourceTree = "<group>"; };
+		C45197C81EE97563006E4087 /* EG_RACViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EG_RACViewController.h; sourceTree = "<group>"; };
+		C45197C91EE97563006E4087 /* EG_RACViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EG_RACViewController.m; sourceTree = "<group>"; };
 		C45DB7011EC407340091CCB5 /* EG_TypeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EG_TypeViewController.h; sourceTree = "<group>"; };
 		C45DB7021EC407340091CCB5 /* EG_TypeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EG_TypeViewController.m; sourceTree = "<group>"; };
 		C45DB7051EC408A00091CCB5 /* EG_RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EG_RootViewController.m; sourceTree = "<group>"; };
-		C45DB7061EC408A00091CCB5 /* EG_BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EG_BaseViewController.h; path = ../EG_BaseViewController.h; sourceTree = "<group>"; };
-		C45DB7071EC408A00091CCB5 /* EG_BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EG_BaseViewController.m; path = ../EG_BaseViewController.m; sourceTree = "<group>"; };
+		C45DB7061EC408A00091CCB5 /* EG_BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EG_BaseViewController.h; sourceTree = "<group>"; };
+		C45DB7071EC408A00091CCB5 /* EG_BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EG_BaseViewController.m; sourceTree = "<group>"; };
 		C45DB7081EC408A00091CCB5 /* EG_RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EG_RootViewController.h; sourceTree = "<group>"; };
+		C468BD671ED31587001253CC /* EG_DeleteComplexAItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EG_DeleteComplexAItemViewController.h; sourceTree = "<group>"; };
+		C468BD681ED31587001253CC /* EG_DeleteComplexAItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EG_DeleteComplexAItemViewController.m; sourceTree = "<group>"; };
 		C4737CAA1E84FCBC00453165 /* EG_FoldCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EG_FoldCollectionViewController.h; sourceTree = "<group>"; };
 		C4737CAB1E84FCBC00453165 /* EG_FoldCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EG_FoldCollectionViewController.m; sourceTree = "<group>"; };
 		C4737CAD1E8506B200453165 /* EG_CollectionHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EG_CollectionHeaderView.h; sourceTree = "<group>"; };
@@ -234,6 +324,47 @@
 		C4E5ACE01E69314F00AF45AD /* EG_AnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EG_AnimationView.m; sourceTree = "<group>"; };
 		C4EA48B41EAF3D3D00AF4931 /* EG_SegmentFeedBack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EG_SegmentFeedBack.h; sourceTree = "<group>"; };
 		C4EA48B51EAF3D3D00AF4931 /* EG_SegmentFeedBack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EG_SegmentFeedBack.m; sourceTree = "<group>"; };
+		C4F1D1881EC541E1000873D6 /* EG_RealmController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EG_RealmController.h; sourceTree = "<group>"; };
+		C4F1D1891EC541E1000873D6 /* EG_RealmController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EG_RealmController.m; sourceTree = "<group>"; };
+		C4F1D18A1EC541E1000873D6 /* EG_RealmController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EG_RealmController.xib; sourceTree = "<group>"; };
+		C4F1D1911EC54AF8000873D6 /* EG_FlightRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EG_FlightRecord.h; sourceTree = "<group>"; };
+		C4F1D1921EC54AF8000873D6 /* EG_FlightRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EG_FlightRecord.m; sourceTree = "<group>"; };
+		C4F1D1961EC55BF0000873D6 /* BasicModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicModel.h; sourceTree = "<group>"; };
+		C4F1D1971EC55BF0000873D6 /* BasicModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicModel.m; sourceTree = "<group>"; };
+		C4F1D1981EC55BF0000873D6 /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		C4F1D1991EC55BF0000873D6 /* Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
+		C4F1D19A1EC55BF0000873D6 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C4F1D19B1EC55BF0000873D6 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C4F1D1A71EC55C35000873D6 /* NSData+XMRealmStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+XMRealmStore.h"; sourceTree = "<group>"; };
+		C4F1D1A81EC55C35000873D6 /* NSData+XMRealmStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+XMRealmStore.m"; sourceTree = "<group>"; };
+		C4F1D1A91EC55C35000873D6 /* NSDate+XMRealmStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+XMRealmStore.h"; sourceTree = "<group>"; };
+		C4F1D1AA1EC55C35000873D6 /* NSDate+XMRealmStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+XMRealmStore.m"; sourceTree = "<group>"; };
+		C4F1D1AB1EC55C35000873D6 /* NSDictionary+XMRealmSotre.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+XMRealmSotre.h"; sourceTree = "<group>"; };
+		C4F1D1AC1EC55C35000873D6 /* NSDictionary+XMRealmSotre.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+XMRealmSotre.m"; sourceTree = "<group>"; };
+		C4F1D1AD1EC55C35000873D6 /* NSString+XMRealmStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+XMRealmStore.h"; sourceTree = "<group>"; };
+		C4F1D1AE1EC55C35000873D6 /* NSString+XMRealmStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+XMRealmStore.m"; sourceTree = "<group>"; };
+		C4F1D1AF1EC55C35000873D6 /* RLMArray+XMRealmStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RLMArray+XMRealmStore.h"; sourceTree = "<group>"; };
+		C4F1D1B01EC55C35000873D6 /* RLMArray+XMRealmStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RLMArray+XMRealmStore.m"; sourceTree = "<group>"; };
+		C4F1D1B11EC55C35000873D6 /* RLMResults+XMRealmSotre.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RLMResults+XMRealmSotre.h"; sourceTree = "<group>"; };
+		C4F1D1B21EC55C35000873D6 /* RLMResults+XMRealmSotre.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RLMResults+XMRealmSotre.m"; sourceTree = "<group>"; };
+		C4F1D1B41EC55C35000873D6 /* MCJSONDateTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCJSONDateTransformer.h; sourceTree = "<group>"; };
+		C4F1D1B51EC55C35000873D6 /* MCJSONDateTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCJSONDateTransformer.m; sourceTree = "<group>"; };
+		C4F1D1B61EC55C35000873D6 /* MCJSONNonNullStringTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCJSONNonNullStringTransformer.h; sourceTree = "<group>"; };
+		C4F1D1B71EC55C35000873D6 /* MCJSONNonNullStringTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCJSONNonNullStringTransformer.m; sourceTree = "<group>"; };
+		C4F1D1B81EC55C35000873D6 /* MCJSONPrimaryKeyTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCJSONPrimaryKeyTransformer.h; sourceTree = "<group>"; };
+		C4F1D1B91EC55C35000873D6 /* MCJSONPrimaryKeyTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCJSONPrimaryKeyTransformer.m; sourceTree = "<group>"; };
+		C4F1D1BA1EC55C35000873D6 /* MCJSONValueTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCJSONValueTransformer.h; sourceTree = "<group>"; };
+		C4F1D1BB1EC55C35000873D6 /* MCJSONValueTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCJSONValueTransformer.m; sourceTree = "<group>"; };
+		C4F1D1BC1EC55C35000873D6 /* RLMObject+Copying.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RLMObject+Copying.h"; sourceTree = "<group>"; };
+		C4F1D1BD1EC55C35000873D6 /* RLMObject+Copying.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RLMObject+Copying.m"; sourceTree = "<group>"; };
+		C4F1D1BE1EC55C35000873D6 /* RLMObject+JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RLMObject+JSON.h"; sourceTree = "<group>"; };
+		C4F1D1BF1EC55C35000873D6 /* RLMObject+JSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RLMObject+JSON.m"; sourceTree = "<group>"; };
+		C4F1D1C11EC55C35000873D6 /* XMRealmOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMRealmOperation.h; sourceTree = "<group>"; };
+		C4F1D1C21EC55C35000873D6 /* XMRealmOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMRealmOperation.m; sourceTree = "<group>"; };
+		C4F1D1C31EC55C35000873D6 /* XMRealmStoreManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMRealmStoreManager.h; sourceTree = "<group>"; };
+		C4F1D1C41EC55C35000873D6 /* XMRealmStoreManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMRealmStoreManager.m; sourceTree = "<group>"; };
+		C4F1D1C51EC55C35000873D6 /* XMRealmWriteTransaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMRealmWriteTransaction.h; sourceTree = "<group>"; };
+		C4F1D1C61EC55C35000873D6 /* XMRealmWriteTransaction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMRealmWriteTransaction.m; sourceTree = "<group>"; };
 		C4FEBB8B1EB9A13300244591 /* EG_ShakingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EG_ShakingViewController.h; sourceTree = "<group>"; };
 		C4FEBB8C1EB9A13300244591 /* EG_ShakingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EG_ShakingViewController.m; sourceTree = "<group>"; };
 		D54D35425F8AB4500CA74C18 /* Pods-DemosGround.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemosGround.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DemosGround/Pods-DemosGround.debug.xcconfig"; sourceTree = "<group>"; };
@@ -326,6 +457,37 @@
 			name = WriteRead;
 			sourceTree = "<group>";
 		};
+		C41F767E1EC6E358007BF462 /* Realm */ = {
+			isa = PBXGroup;
+			children = (
+				C4F1D1961EC55BF0000873D6 /* BasicModel.h */,
+				C4F1D1971EC55BF0000873D6 /* BasicModel.m */,
+				C4F1D1981EC55BF0000873D6 /* Model.h */,
+				C4F1D1991EC55BF0000873D6 /* Model.m */,
+				C4F1D19A1EC55BF0000873D6 /* ViewController.h */,
+				C4F1D19B1EC55BF0000873D6 /* ViewController.m */,
+				C4F1D1881EC541E1000873D6 /* EG_RealmController.h */,
+				C4F1D1891EC541E1000873D6 /* EG_RealmController.m */,
+				C4F1D18A1EC541E1000873D6 /* EG_RealmController.xib */,
+				C4F1D1911EC54AF8000873D6 /* EG_FlightRecord.h */,
+				C4F1D1921EC54AF8000873D6 /* EG_FlightRecord.m */,
+			);
+			name = Realm;
+			sourceTree = "<group>";
+		};
+		C42B321E1ECBEBE300F84219 /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				C42B321F1ECBEC2D00F84219 /* RecordModel.h */,
+				C42B32201ECBEC2D00F84219 /* RecordModel.m */,
+				C42B32251ECBF50F00F84219 /* RecordHelper.h */,
+				C42B32261ECBF50F00F84219 /* RecordHelper.m */,
+				C42B32221ECBEC4000F84219 /* EG_TraceController.h */,
+				C42B32231ECBEC4000F84219 /* EG_TraceController.m */,
+			);
+			name = FMDB;
+			sourceTree = "<group>";
+		};
 		C430D10B1E84E97400CFB644 /* FoldedTable */ = {
 			isa = PBXGroup;
 			children = (
@@ -395,6 +557,22 @@
 				C44315E51E79157400463D6D /* GDULogoView.m */,
 			);
 			name = GradualView;
+			sourceTree = "<group>";
+		};
+		C45197C61EE9751B006E4087 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "New Group";
+			sourceTree = "<group>";
+		};
+		C45197C71EE97546006E4087 /* RACTest */ = {
+			isa = PBXGroup;
+			children = (
+				C45197C81EE97563006E4087 /* EG_RACViewController.h */,
+				C45197C91EE97563006E4087 /* EG_RACViewController.m */,
+			);
+			name = RACTest;
 			sourceTree = "<group>";
 		};
 		C45DB7001EC406FC0091CCB5 /* Shaking */ = {
@@ -571,8 +749,10 @@
 			children = (
 				C4E5AC971E6917D500AF45AD /* AppDelegate.h */,
 				C4E5AC981E6917D500AF45AD /* AppDelegate.m */,
-				C45DB7051EC408A00091CCB5 /* EG_RootViewController.m */,
 				C45DB7081EC408A00091CCB5 /* EG_RootViewController.h */,
+				C45DB7051EC408A00091CCB5 /* EG_RootViewController.m */,
+				C45DB7061EC408A00091CCB5 /* EG_BaseViewController.h */,
+				C45DB7071EC408A00091CCB5 /* EG_BaseViewController.m */,
 				C4E5ACD61E691DBF00AF45AD /* Playground */,
 				C4E5ACD51E691D9700AF45AD /* Resource */,
 				C4E5ACD01E691D6A00AF45AD /* Tools */,
@@ -667,8 +847,11 @@
 		C4E5ACD61E691DBF00AF45AD /* Playground */ = {
 			isa = PBXGroup;
 			children = (
-				C45DB7061EC408A00091CCB5 /* EG_BaseViewController.h */,
-				C45DB7071EC408A00091CCB5 /* EG_BaseViewController.m */,
+				C45197C71EE97546006E4087 /* RACTest */,
+				C45197C61EE9751B006E4087 /* New Group */,
+				C42B321E1ECBEBE300F84219 /* FMDB */,
+				C41F767E1EC6E358007BF462 /* Realm */,
+				C4F1D1A51EC55C35000873D6 /* DataStore */,
 				C45DB7041EC4081F0091CCB5 /* TypeChoose */,
 				C45DB7001EC406FC0091CCB5 /* Shaking */,
 				C4FEBB8E1EB9A24300244591 /* PressAndStroke */,
@@ -693,8 +876,79 @@
 				C4B6E2D01E6D448E007A3E77 /* AnimationFreshButton */,
 				C4B6E2CF1E6D4486007A3E77 /* Logo */,
 				C44315EB1E79689800463D6D /* GradualView */,
+				C41F767F1EC6E3A2007BF462 /* EG_CurrentViewController.h */,
+				C41F76801EC6E3A2007BF462 /* EG_CurrentViewController.m */,
+				C41F76821EC6E3B8007BF462 /* EG_PresentViewController.h */,
+				C41F76831EC6E3B8007BF462 /* EG_PresentViewController.m */,
+				C41F76851EC6E428007BF462 /* EG_AnimationPresentTool.h */,
+				C41F76861EC6E428007BF462 /* EG_AnimationPresentTool.m */,
+				C468BD671ED31587001253CC /* EG_DeleteComplexAItemViewController.h */,
+				C468BD681ED31587001253CC /* EG_DeleteComplexAItemViewController.m */,
+				C440F8261EE8132100937C21 /* EG_LLDBViewController.h */,
+				C440F8271EE8132100937C21 /* EG_LLDBViewController.m */,
 			);
 			path = Playground;
+			sourceTree = "<group>";
+		};
+		C4F1D1A51EC55C35000873D6 /* DataStore */ = {
+			isa = PBXGroup;
+			children = (
+				C4F1D1A61EC55C35000873D6 /* Category */,
+				C4F1D1B31EC55C35000873D6 /* Realm+JSON */,
+				C4F1D1C01EC55C35000873D6 /* Store */,
+			);
+			path = DataStore;
+			sourceTree = "<group>";
+		};
+		C4F1D1A61EC55C35000873D6 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				C4F1D1A71EC55C35000873D6 /* NSData+XMRealmStore.h */,
+				C4F1D1A81EC55C35000873D6 /* NSData+XMRealmStore.m */,
+				C4F1D1A91EC55C35000873D6 /* NSDate+XMRealmStore.h */,
+				C4F1D1AA1EC55C35000873D6 /* NSDate+XMRealmStore.m */,
+				C4F1D1AB1EC55C35000873D6 /* NSDictionary+XMRealmSotre.h */,
+				C4F1D1AC1EC55C35000873D6 /* NSDictionary+XMRealmSotre.m */,
+				C4F1D1AD1EC55C35000873D6 /* NSString+XMRealmStore.h */,
+				C4F1D1AE1EC55C35000873D6 /* NSString+XMRealmStore.m */,
+				C4F1D1AF1EC55C35000873D6 /* RLMArray+XMRealmStore.h */,
+				C4F1D1B01EC55C35000873D6 /* RLMArray+XMRealmStore.m */,
+				C4F1D1B11EC55C35000873D6 /* RLMResults+XMRealmSotre.h */,
+				C4F1D1B21EC55C35000873D6 /* RLMResults+XMRealmSotre.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		C4F1D1B31EC55C35000873D6 /* Realm+JSON */ = {
+			isa = PBXGroup;
+			children = (
+				C4F1D1B41EC55C35000873D6 /* MCJSONDateTransformer.h */,
+				C4F1D1B51EC55C35000873D6 /* MCJSONDateTransformer.m */,
+				C4F1D1B61EC55C35000873D6 /* MCJSONNonNullStringTransformer.h */,
+				C4F1D1B71EC55C35000873D6 /* MCJSONNonNullStringTransformer.m */,
+				C4F1D1B81EC55C35000873D6 /* MCJSONPrimaryKeyTransformer.h */,
+				C4F1D1B91EC55C35000873D6 /* MCJSONPrimaryKeyTransformer.m */,
+				C4F1D1BA1EC55C35000873D6 /* MCJSONValueTransformer.h */,
+				C4F1D1BB1EC55C35000873D6 /* MCJSONValueTransformer.m */,
+				C4F1D1BC1EC55C35000873D6 /* RLMObject+Copying.h */,
+				C4F1D1BD1EC55C35000873D6 /* RLMObject+Copying.m */,
+				C4F1D1BE1EC55C35000873D6 /* RLMObject+JSON.h */,
+				C4F1D1BF1EC55C35000873D6 /* RLMObject+JSON.m */,
+			);
+			path = "Realm+JSON";
+			sourceTree = "<group>";
+		};
+		C4F1D1C01EC55C35000873D6 /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				C4F1D1C11EC55C35000873D6 /* XMRealmOperation.h */,
+				C4F1D1C21EC55C35000873D6 /* XMRealmOperation.m */,
+				C4F1D1C31EC55C35000873D6 /* XMRealmStoreManager.h */,
+				C4F1D1C41EC55C35000873D6 /* XMRealmStoreManager.m */,
+				C4F1D1C51EC55C35000873D6 /* XMRealmWriteTransaction.h */,
+				C4F1D1C61EC55C35000873D6 /* XMRealmWriteTransaction.m */,
+			);
+			path = Store;
 			sourceTree = "<group>";
 		};
 		C4FEBB8E1EB9A24300244591 /* PressAndStroke */ = {
@@ -835,6 +1089,7 @@
 				C4E5ACA11E6917D500AF45AD /* Assets.xcassets in Resources */,
 				C41A55A61E6E66CF0045451D /* EG_DBViewController.xib in Resources */,
 				C41BC06E1E9780E5002DFCBD /* EG_BlurEffectViewController.xib in Resources */,
+				C4F1D18E1EC541E1000873D6 /* EG_RealmController.xib in Resources */,
 				C41BC0701E978124002DFCBD /* backImage.jpeg in Resources */,
 				C4737CB11E8506B200453165 /* EG_CollectionHeaderView.xib in Resources */,
 			);
@@ -844,6 +1099,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4F1D18F1EC541E1000873D6 /* EG_RealmController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -851,6 +1107,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4F1D1901EC541E1000873D6 /* EG_RealmController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -999,6 +1256,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4F1D1EE1EC55C35000873D6 /* XMRealmStoreManager.m in Sources */,
 				C49C85AB1E6D811C00F1F0F8 /* EG_EnumViewController.m in Sources */,
 				C4E5ACE11E69314F00AF45AD /* EG_AnimationView.m in Sources */,
 				C417F4381EA2089A00B58BD7 /* EG_PanControlViewController.m in Sources */,
@@ -1010,13 +1268,21 @@
 				C4294D631E70067B00B3F4B4 /* UIView+PDExtension.m in Sources */,
 				C4CC13581E723C6900553DC5 /* EG_GradualColorViewController.m in Sources */,
 				C44315E61E79157400463D6D /* GDULogoView.m in Sources */,
+				C4F1D19F1EC55BF0000873D6 /* Model.m in Sources */,
 				C4161F0D1E88F97A0042C116 /* EG_PieView.m in Sources */,
+				C4F1D1D91EC55C35000873D6 /* MCJSONDateTransformer.m in Sources */,
+				C4F1D18B1EC541E1000873D6 /* EG_RealmController.m in Sources */,
 				C45DB7091EC408A00091CCB5 /* EG_RootViewController.m in Sources */,
+				C4F1D1EB1EC55C35000873D6 /* XMRealmOperation.m in Sources */,
+				C4F1D1DF1EC55C35000873D6 /* MCJSONPrimaryKeyTransformer.m in Sources */,
 				C4A619201E700495009CDDF6 /* EG_ProgressCircleViewController.m in Sources */,
 				C44315EA1E7966A900463D6D /* EG_SignInViewController.m in Sources */,
 				C4B6E2D31E6D44A1007A3E77 /* GDURefreshDataButton.m in Sources */,
 				C41B26A31EA9911F0022782E /* EG_Drawview.m in Sources */,
+				C4F1D1D61EC55C35000873D6 /* RLMResults+XMRealmSotre.m in Sources */,
+				C42B32271ECBF50F00F84219 /* RecordHelper.m in Sources */,
 				C44315F11E796B8200463D6D /* EG_SignInVIew.m in Sources */,
+				C45197CB1EE97563006E4087 /* EG_RACViewController.m in Sources */,
 				C4E5AC991E6917D500AF45AD /* AppDelegate.m in Sources */,
 				C41BC06D1E9780E5002DFCBD /* EG_BlurEffectViewController.m in Sources */,
 				C44315F71E796C2700463D6D /* GDUAnimateInputView.m in Sources */,
@@ -1024,28 +1290,48 @@
 				C45DB7031EC407340091CCB5 /* EG_TypeViewController.m in Sources */,
 				C41B26981EA83BFA0022782E /* EG_DraggableLineViewController.m in Sources */,
 				C436F0EC1EB07CE00028DA05 /* EG_MapView.m in Sources */,
+				C4F1D1A21EC55BF0000873D6 /* ViewController.m in Sources */,
 				C43968FE1E76C22900C31A03 /* EG_ArrayContainsViewController.m in Sources */,
 				C4737CAC1E84FCBC00453165 /* EG_FoldCollectionViewController.m in Sources */,
+				C42B32241ECBEC4000F84219 /* EG_TraceController.m in Sources */,
 				C4BCD9341E7108920028EE9D /* EG_UploadBackupViewController.m in Sources */,
+				C41F76841EC6E3B8007BF462 /* EG_PresentViewController.m in Sources */,
 				C437B5DF1EC14F25005BF22E /* EG_TypeView.m in Sources */,
+				C4F1D1D31EC55C35000873D6 /* RLMArray+XMRealmStore.m in Sources */,
+				C41F76871EC6E428007BF462 /* EG_AnimationPresentTool.m in Sources */,
 				C436F0EF1EB07ED60028DA05 /* EG_PathView.m in Sources */,
 				C417F43E1EA208B400B58BD7 /* PDPanControlButton.m in Sources */,
 				C417F43F1EA208B400B58BD7 /* PDSmartModePanControlView.m in Sources */,
 				C4FEBB8D1EB9A13300244591 /* EG_ShakingViewController.m in Sources */,
+				C440F8281EE8132100937C21 /* EG_LLDBViewController.m in Sources */,
 				C4C4C47B1E8B64D800FE0CE3 /* EG_LoadingPieView.m in Sources */,
+				C4F1D1F11EC55C35000873D6 /* XMRealmWriteTransaction.m in Sources */,
+				C4F1D1D01EC55C35000873D6 /* NSString+XMRealmStore.m in Sources */,
+				C4F1D1DC1EC55C35000873D6 /* MCJSONNonNullStringTransformer.m in Sources */,
+				C4F1D1C71EC55C35000873D6 /* NSData+XMRealmStore.m in Sources */,
+				C41F76811EC6E3A2007BF462 /* EG_CurrentViewController.m in Sources */,
 				C41A55AB1E6E91930045451D /* EG_LocalViewController.m in Sources */,
 				C45DB70A1EC408A00091CCB5 /* EG_BaseViewController.m in Sources */,
 				C4A619251E7004A5009CDDF6 /* GradientPeogressView.m in Sources */,
 				C42565781E8CA42200FDFFE2 /* JNPieLoader.m in Sources */,
 				C4161F0A1E88F6CC0042C116 /* EG_LoadingProgressTableViewCell.m in Sources */,
+				C4F1D19C1EC55BF0000873D6 /* BasicModel.m in Sources */,
+				C42B32211ECBEC2D00F84219 /* RecordModel.m in Sources */,
 				C4C4C47E1E8B786E00FE0CE3 /* EG_PeiAnimationViewController.m in Sources */,
 				C41A55A51E6E66CF0045451D /* EG_DBViewController.m in Sources */,
+				C4F1D1931EC54AF8000873D6 /* EG_FlightRecord.m in Sources */,
 				C4A24B641E99D37A00B90C9A /* EG_ijkPlayerViewController.m in Sources */,
 				C44315E11E79155400463D6D /* EG_GradualViewController.m in Sources */,
 				C4294D5E1E70062500B3F4B4 /* UIColor+PDExtension.m in Sources */,
+				C4F1D1E81EC55C35000873D6 /* RLMObject+JSON.m in Sources */,
 				C436F0E91EB07ABA0028DA05 /* EG_MapLongPressViewController.m in Sources */,
+				C4F1D1CD1EC55C35000873D6 /* NSDictionary+XMRealmSotre.m in Sources */,
 				C4737CB01E8506B200453165 /* EG_CollectionHeaderView.m in Sources */,
 				C4E5AC961E6917D500AF45AD /* main.m in Sources */,
+				C4F1D1E51EC55C35000873D6 /* RLMObject+Copying.m in Sources */,
+				C4F1D1CA1EC55C35000873D6 /* NSDate+XMRealmStore.m in Sources */,
+				C468BD691ED31587001253CC /* EG_DeleteComplexAItemViewController.m in Sources */,
+				C4F1D1E21EC55C35000873D6 /* MCJSONValueTransformer.m in Sources */,
 				C437B5DB1EC14B93005BF22E /* EG_SoundTool.m in Sources */,
 				C4BCD9381E7128D80028EE9D /* EG_LocalArchieveViewController.m in Sources */,
 				C4B6E2D91E6D4515007A3E77 /* EG_DispatchViewController.m in Sources */,
@@ -1058,15 +1344,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4F1D1A31EC55BF0000873D6 /* ViewController.m in Sources */,
 				C4B6E2D41E6D44A1007A3E77 /* GDURefreshDataButton.m in Sources */,
+				C4F1D1F21EC55C35000873D6 /* XMRealmWriteTransaction.m in Sources */,
 				C4A619261E7004A5009CDDF6 /* GradientPeogressView.m in Sources */,
+				C4F1D1EC1EC55C35000873D6 /* XMRealmOperation.m in Sources */,
+				C4F1D19D1EC55BF0000873D6 /* BasicModel.m in Sources */,
+				C4F1D1D11EC55C35000873D6 /* NSString+XMRealmStore.m in Sources */,
+				C4F1D1EF1EC55C35000873D6 /* XMRealmStoreManager.m in Sources */,
+				C4F1D1CE1EC55C35000873D6 /* NSDictionary+XMRealmSotre.m in Sources */,
 				C4A619211E700495009CDDF6 /* EG_ProgressCircleViewController.m in Sources */,
+				C4F1D1D41EC55C35000873D6 /* RLMArray+XMRealmStore.m in Sources */,
 				C4294D641E70067B00B3F4B4 /* UIView+PDExtension.m in Sources */,
 				C4B6E2DA1E6D4515007A3E77 /* EG_DispatchViewController.m in Sources */,
+				C4F1D1E61EC55C35000873D6 /* RLMObject+Copying.m in Sources */,
 				C4E5ACDD1E69312700AF45AD /* LogoAnimationViewController.m in Sources */,
+				C4F1D1E91EC55C35000873D6 /* RLMObject+JSON.m in Sources */,
+				C4F1D1D71EC55C35000873D6 /* RLMResults+XMRealmSotre.m in Sources */,
 				C4294D5F1E70062500B3F4B4 /* UIColor+PDExtension.m in Sources */,
+				C4F1D1E31EC55C35000873D6 /* MCJSONValueTransformer.m in Sources */,
 				C4E5ACAF1E6917D500AF45AD /* DemosGroundTests.m in Sources */,
 				C4E5ACE21E69314F00AF45AD /* EG_AnimationView.m in Sources */,
+				C4F1D1DA1EC55C35000873D6 /* MCJSONDateTransformer.m in Sources */,
+				C4F1D1C81EC55C35000873D6 /* NSData+XMRealmStore.m in Sources */,
+				C4F1D1941EC54AF8000873D6 /* EG_FlightRecord.m in Sources */,
+				C4F1D1CB1EC55C35000873D6 /* NSDate+XMRealmStore.m in Sources */,
+				C4F1D1A01EC55BF0000873D6 /* Model.m in Sources */,
+				C4F1D1DD1EC55C35000873D6 /* MCJSONNonNullStringTransformer.m in Sources */,
+				C4F1D1E01EC55C35000873D6 /* MCJSONPrimaryKeyTransformer.m in Sources */,
+				C4F1D18C1EC541E1000873D6 /* EG_RealmController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1074,15 +1380,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4F1D1A41EC55BF0000873D6 /* ViewController.m in Sources */,
 				C4B6E2D51E6D44A1007A3E77 /* GDURefreshDataButton.m in Sources */,
+				C4F1D1F31EC55C35000873D6 /* XMRealmWriteTransaction.m in Sources */,
 				C4A619271E7004A5009CDDF6 /* GradientPeogressView.m in Sources */,
+				C4F1D1ED1EC55C35000873D6 /* XMRealmOperation.m in Sources */,
+				C4F1D19E1EC55BF0000873D6 /* BasicModel.m in Sources */,
+				C4F1D1D21EC55C35000873D6 /* NSString+XMRealmStore.m in Sources */,
+				C4F1D1F01EC55C35000873D6 /* XMRealmStoreManager.m in Sources */,
+				C4F1D1CF1EC55C35000873D6 /* NSDictionary+XMRealmSotre.m in Sources */,
 				C4A619221E700495009CDDF6 /* EG_ProgressCircleViewController.m in Sources */,
+				C4F1D1D51EC55C35000873D6 /* RLMArray+XMRealmStore.m in Sources */,
 				C4294D651E70067B00B3F4B4 /* UIView+PDExtension.m in Sources */,
 				C4B6E2DB1E6D4515007A3E77 /* EG_DispatchViewController.m in Sources */,
+				C4F1D1E71EC55C35000873D6 /* RLMObject+Copying.m in Sources */,
 				C4E5ACDE1E69312700AF45AD /* LogoAnimationViewController.m in Sources */,
+				C4F1D1EA1EC55C35000873D6 /* RLMObject+JSON.m in Sources */,
+				C4F1D1D81EC55C35000873D6 /* RLMResults+XMRealmSotre.m in Sources */,
 				C4294D601E70062500B3F4B4 /* UIColor+PDExtension.m in Sources */,
+				C4F1D1E41EC55C35000873D6 /* MCJSONValueTransformer.m in Sources */,
 				C4E5ACBA1E6917D500AF45AD /* DemosGroundUITests.m in Sources */,
 				C4E5ACE31E69314F00AF45AD /* EG_AnimationView.m in Sources */,
+				C4F1D1DB1EC55C35000873D6 /* MCJSONDateTransformer.m in Sources */,
+				C4F1D1C91EC55C35000873D6 /* NSData+XMRealmStore.m in Sources */,
+				C4F1D1951EC54AF8000873D6 /* EG_FlightRecord.m in Sources */,
+				C4F1D1CC1EC55C35000873D6 /* NSDate+XMRealmStore.m in Sources */,
+				C4F1D1A11EC55BF0000873D6 /* Model.m in Sources */,
+				C4F1D1DE1EC55C35000873D6 /* MCJSONNonNullStringTransformer.m in Sources */,
+				C4F1D1E11EC55C35000873D6 /* MCJSONPrimaryKeyTransformer.m in Sources */,
+				C4F1D18D1EC541E1000873D6 /* EG_RealmController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
